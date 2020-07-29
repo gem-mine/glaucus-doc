@@ -1,0 +1,24 @@
+{
+  "name": "@gem-mine/glaucus-doc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "gms dev:doc",
+    "build": "gms build:doc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gem-mine/cli-plugin-doc": "^3.0.0",
+    "@gem-mine/script": "^2.12.0"
+  },
+  "dependencies": {
+    "@gem-mine/glaucus": "^0.1.0"
+  }
+}
