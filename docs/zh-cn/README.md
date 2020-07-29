@@ -85,5 +85,13 @@
 | onChange | 富文本发生变化时的回调 | (value) => void | - |
 | reactEvent | 自定义事件 | { onClick, onKeyDown ... } | - |
 
+### slate
+
+### slateReact
+
+### slateHistory
+
+分别对应 slate/slate-react/slate-history 3 个包，用于调用 slate 相关函数
+
 ## 兼容性
 Chrome63+

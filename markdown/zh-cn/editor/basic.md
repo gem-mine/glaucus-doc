@@ -4,9 +4,6 @@
 ```jsx
 /* react */
 <script>
-// 需要导入 css 或自行实现样式
-// import '@gem-mine/glaucus/dist/glaucus.css'
-
 const { GlaucusFactory } = window['gem-mine-glaucus']
 const glaucusFactory = new GlaucusFactory({ pluginConfig: 'base' })
 const Glaucus = glaucusFactory.getComponent()
